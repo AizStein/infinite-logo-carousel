@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-slide">
+        <img src="./images/audi.png" alt="audi" />
+        <img src="./images/bmw.jpeg" alt="bmw" />
+        <img src="./images/chevrolet.jpeg" alt="chevrolet" />
+        <img src="./images/hyundai.jpeg" alt="hyundai" />
+        <img src="./images/mercedes.jpeg" alt="mercedes" />
+        <img src="./images/mini.jpeg" alt="mini-cooper" />
+        <img src="./images/nissan.jpeg" alt="nissan" />
+        <img src="./images/tesla.jpeg" alt="tesla" />
+        <img src="./images/toyota.jpeg" alt="toyota" />
+      </div>
+    </div>
+    <script>
+      const copy = document.querySelector(".logo-slide").cloneNode(true);
+      document.querySelector(".container").appendChild(copy);
+    </script>
+  </body>
+</html>
